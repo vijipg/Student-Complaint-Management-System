@@ -1,0 +1,89 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:url("loginbg.jpg");
+	background-size:cover;
+	font-family:sans-serif;
+}
+
+.heading 
+{
+	padding:75px 400px 0 400px;
+	font-size:60px;
+	
+}
+	
+.login-box
+{
+	position:absolute;
+	top:40%;
+	left:40%;
+	width:350px;
+	height:350px;
+	padding:20px 40px;
+	box-sizing:border-box;
+	background:rgba(0,0,0,0.5);
+	
+}
+.login-box p
+{
+	font-weight:bold;
+	color:white;
+}
+.login-box input
+{
+	width:100%;
+	margin-bottom:10px;
+}
+.login-box input[type="text"], .login-box input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	font-size:16px;
+	height:20px;
+	color:#fff;
+}
+.login-box input[type="submit"]
+{
+	height:40px;
+	outline:none;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	background:rgb(255,38,126);
+	cursor:pointer;
+	border-radius:20px;
+}
+.login-box input[type="submit"]:hover
+{
+	background:#efed40;
+	color:262626
+}
+
+.ml1 {
+  font-weight: 500;
+  font-size: 70px;
+
+
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+
+}
+
+.ml1 .text-wrapper {
+ //position: relative;
+  display: inline-block;
+  width:1200px;
+  color: rgba(255,0,0,0.5);;
+ margin-left:-200px;
+  padding-bottom: 0px;
+ 
+}
+
+

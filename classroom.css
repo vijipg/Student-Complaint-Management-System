@@ -1,0 +1,16 @@
+body
+{
+	background:url('light.jpg');
+	background-size:cover;
+	padding-top: 50px; 
+	margin:0px;
+}
+.class_form
+{
+	
+	margin:50px 350px;
+}
+.container
+{
+	padding:0px 100px;
+}

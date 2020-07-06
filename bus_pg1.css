@@ -1,0 +1,50 @@
+.shadow-textarea
+{
+	margin:auto;
+	padding:20px 60px;
+	margin:50px 400px;
+}
+.box
+{
+	 overflow-y: scroll;
+	 height: 150px;
+    resize: none;
+}
+body
+{
+	background:url('sidebg3.jpg');
+	background-size:cover;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}

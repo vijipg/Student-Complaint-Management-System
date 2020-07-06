@@ -1,0 +1,61 @@
+body
+{
+	background:url("sky.jpg");
+	background-size:cover;
+}
+.sec
+{
+	width:80%;
+	margin: 50px;
+	padding:0px 70px;
+}
+/*.grid
+{
+	margin:10px 0 0 0;
+	padding:10px;
+	list-style:none;
+	display:block;
+	text-align:center;
+	width:100%;
+	border:solid 5px red;
+}*/
+.grid li
+{
+	display:inline;
+	margin:20px;
+	padding:50px;
+	text-align:center;
+	font-size:20px;
+	//border:solid 20px red;
+}
+.box
+{
+	width:100%;
+	height:30%;
+	//position:relative;
+	cursor:pointer;
+	border-radius:10px;
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),url('sky.jpg');
+	background-size:cover;
+	text-align:center;
+	padding-top:30px;
+	text-decoration:none;
+	//margin-top:10px;
+}
+.box:hover
+{
+	transform:scale(1.05);
+}
+a
+{
+	text-decoration:none;
+}
+a h3,p{
+	color:cyan;
+}
+/*.box
+{
+	 overflow-y: scroll;
+	 height: 150px;
+    resize: none;
+}*/
